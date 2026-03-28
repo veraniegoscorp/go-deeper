@@ -14,6 +14,22 @@ config/name="go deeper"
 run/main_scene="uid://hracrkajt5n5"
 config/features=PackedStringArray("4.6", "Forward Plus")
 
+[autoload]
+
+DialogueManager="*uid://c3rodes2l3gxb"
+
+[editor_plugins]
+
+enabled=PackedStringArray("res://addons/dialogue_manager/plugin.cfg")
+
+[file_customization]
+
+folder_colors={
+"res://addons/": "gray",
+"res://assets/": "green",
+"res://tcne's/": "red"
+}
+
 [input]
 
 up={

@@ -185,7 +185,7 @@ animations = [{
 }],
 "loop": true,
 "name": &"idle_diagonal",
-"speed": 5.0
+"speed": 2.0
 }, {
 "frames": [{
 "duration": 1.0,
@@ -202,7 +202,7 @@ animations = [{
 }],
 "loop": true,
 "name": &"idle_diagonal_down",
-"speed": 5.0
+"speed": 2.0
 }, {
 "frames": [{
 "duration": 1.0,
@@ -219,7 +219,7 @@ animations = [{
 }],
 "loop": true,
 "name": &"idle_down",
-"speed": 5.0
+"speed": 2.0
 }, {
 "frames": [{
 "duration": 1.0,
@@ -236,7 +236,7 @@ animations = [{
 }],
 "loop": true,
 "name": &"idle_right",
-"speed": 5.0
+"speed": 2.0
 }, {
 "frames": [{
 "duration": 1.0,
@@ -253,7 +253,7 @@ animations = [{
 }],
 "loop": true,
 "name": &"idle_up",
-"speed": 5.0
+"speed": 2.0
 }, {
 "frames": [{
 "duration": 1.0,
@@ -352,7 +352,7 @@ shape = SubResource("CapsuleShape2D_0dayi")
 [node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="." unique_id=909598251]
 texture_filter = 1
 sprite_frames = SubResource("SpriteFrames_q4nsu")
-animation = &"walk_up"
+animation = &"idle_down"
 
 [node name="Camera2D" type="Camera2D" parent="." unique_id=1943702117]
 zoom = Vector2(4.73, 4.73)
