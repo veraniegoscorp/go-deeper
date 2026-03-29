@@ -14,9 +14,11 @@ func _ready():
 	DialogueManager.dialogue_started.connect(_on_dialogue_started)
 	DialogueManager.dialogue_ended.connect(_on_dialogue_ended)
 
+@warning_ignore("unused_parameter")
 func _on_dialogue_started(dialogue):
 	can_move = false
 
+@warning_ignore("unused_parameter")
 func _on_dialogue_ended(dialogue):
 	can_move = true
 
@@ -24,6 +26,8 @@ func _on_dialogue_ended(dialogue):
 func _physics_process(delta: float) -> void:
 	var input_vector := Vector2.ZERO
 	if not can_move:
+		move_and_slide()
+		_update_animation(velocity, velocity)
 		return
 
 	# Capturar input desde WASD

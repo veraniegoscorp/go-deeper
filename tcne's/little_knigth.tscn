@@ -341,7 +341,7 @@ animations = [{
 "speed": 6.0
 }]
 
-[node name="little knigth" type="CharacterBody2D" unique_id=1143972731]
+[node name="little knight" type="CharacterBody2D" unique_id=1143972731]
 script = ExtResource("1_0dayi")
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="." unique_id=1852708033]
