@@ -1,0 +1,16 @@
+[remap]
+
+importer="dialogue_manager"
+importer_version=15
+type="Resource"
+uid="uid://pmyu8525k02c"
+path="res://.godot/imported/spawn_1st_dialogue.dialogue-28ef5772bcd61b960ba7723fb4f00fa2.tres"
+
+[deps]
+
+source_file="res://assets/dialogues/spawn_1st_dialogue.dialogue"
+dest_files=["res://.godot/imported/spawn_1st_dialogue.dialogue-28ef5772bcd61b960ba7723fb4f00fa2.tres"]
+
+[params]
+
+defaults=true

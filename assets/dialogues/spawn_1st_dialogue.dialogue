@@ -1,0 +1,10 @@
+~ start
+little knight: [speed=0.3] ughh ...  
+little knight: [speed=0.1] donde... estoy?
+little knight: [wave] no.. recuerdo nada
+- ciudad
+	narrador: [speed=0.5]*por alguna razon recuerdas una ciudad llena de gente amable junto a ti*
+- dolor
+	narrador: [speed=0.5]*aprietas la boca para no dejar escapar un quejido de dolor*
+little knight: [speed=0.5] se ve todo raro?.. no podria describirlo es algo que nunca eh visto antes 
+little knight: [speed=0.5] hay algo raro aqui, definitivamente no deberia quedarme aqui mucho mas tiempo

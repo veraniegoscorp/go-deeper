@@ -8,9 +8,23 @@ const MIN_ANIMATION_TIME = 0.1 # tiempo mínimo antes de cambiar animación
 var last_direction := Vector2.DOWN
 var current_animation := ""
 var animation_timer := 0.0
+var can_move= true
+
+func _ready():
+	DialogueManager.dialogue_started.connect(_on_dialogue_started)
+	DialogueManager.dialogue_ended.connect(_on_dialogue_ended)
+
+func _on_dialogue_started(dialogue):
+	can_move = false
+
+func _on_dialogue_ended(dialogue):
+	can_move = true
+
 
 func _physics_process(delta: float) -> void:
 	var input_vector := Vector2.ZERO
+	if not can_move:
+		return
 
 	# Capturar input desde WASD
 	input_vector.x = Input.get_action_strength("right") - Input.get_action_strength("left")

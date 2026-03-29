@@ -1,6 +1,6 @@
 [gd_scene format=3 uid="uid://dymfe7vwp7bt"]
 
-[ext_resource type="Script" uid="uid://0w170ovr5g43" path="res://tcne's/little_knigth.gd" id="1_0dayi"]
+[ext_resource type="Script" uid="uid://0w170ovr5g43" path="res://script's/little_knigth.gd" id="1_0dayi"]
 [ext_resource type="Texture2D" uid="uid://d2471lbbsmd40" path="res://assets/little_knigth/16x32 Idle-Sheet.png" id="1_7v8vh"]
 [ext_resource type="Texture2D" uid="uid://doaof0e0lsqj5" path="res://assets/little_knigth/16x32 Walk-Sheet.png" id="3_aa38s"]
 
@@ -353,6 +353,3 @@ shape = SubResource("CapsuleShape2D_0dayi")
 texture_filter = 1
 sprite_frames = SubResource("SpriteFrames_q4nsu")
 animation = &"idle_down"
-
-[node name="Camera2D" type="Camera2D" parent="." unique_id=1943702117]
-zoom = Vector2(4.73, 4.73)
