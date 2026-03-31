@@ -1,6 +1,6 @@
 extends CharacterBody2D
 
-const SPEED = 100.0
+var SPEED = 100.0
 const MIN_ANIMATION_TIME = 0.1 # tiempo mínimo antes de cambiar animación
 
 @onready var sprite = $AnimatedSprite2D
@@ -17,29 +17,42 @@ func _ready():
 @warning_ignore("unused_parameter")
 func _on_dialogue_started(dialogue):
 	can_move = false
+	SPEED=0
+	velocity = Vector2.ZERO
 
 @warning_ignore("unused_parameter")
 func _on_dialogue_ended(dialogue):
 	can_move = true
+	SPEED=100
 
 
 func _physics_process(delta: float) -> void:
 	var input_vector := Vector2.ZERO
+	
 	if not can_move:
+		velocity = Vector2.ZERO
 		move_and_slide()
-		_update_animation(velocity, velocity)
+		_update_animation(last_direction, Vector2.ZERO)
+		$pasos.stop()
 		return
 
-	# Capturar input desde WASD
+	# Capturar input
 	input_vector.x = Input.get_action_strength("right") - Input.get_action_strength("left")
 	input_vector.y = Input.get_action_strength("down") - Input.get_action_strength("up")
 	input_vector = input_vector.normalized()
 
-	# Guardar la última dirección si hay movimiento
+	# 🔊 SONIDO DE PASOS (AHORA SÍ FUNCIONA)
+	if input_vector != Vector2.ZERO:
+		if not $pasos.playing:
+			$pasos.play()
+	else:
+		$pasos.stop()
+
+	# Guardar dirección
 	if input_vector != Vector2.ZERO:
 		last_direction = input_vector
 
-	# Mover al jugador
+	# Movimiento
 	velocity = input_vector * SPEED
 	move_and_slide()
 

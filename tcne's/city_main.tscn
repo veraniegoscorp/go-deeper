@@ -6,6 +6,7 @@
 [ext_resource type="PackedScene" uid="uid://dymfe7vwp7bt" path="res://tcne's/little_knigth.tscn" id="4_ul8lc"]
 [ext_resource type="PackedScene" uid="uid://cikpwju2nrv7d" path="res://tcne's/amaro_npc.tscn" id="5_27jn8"]
 [ext_resource type="PackedScene" uid="uid://dw6uxkn1qih3i" path="res://tcne's/tree_bonito.tscn" id="6_usdho"]
+[ext_resource type="AudioStream" uid="uid://bx5me1limg6bp" path="res://assets/audio/Forbidden Grotto.ogg" id="7_56f6y"]
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_ul8lc"]
 texture = ExtResource("1_phshf")
@@ -1085,11 +1086,16 @@ position = Vector2(-170, -305)
 
 [node name="trees" type="Node" parent="." unique_id=390639860]
 
-[node name="tree_bonito" parent="." unique_id=1040809979 instance=ExtResource("6_usdho")]
+[node name="tree_bonito" parent="trees" unique_id=1040809979 instance=ExtResource("6_usdho")]
 position = Vector2(-580, -339)
 
-[node name="tree_bonito2" parent="." unique_id=1029724708 instance=ExtResource("6_usdho")]
+[node name="tree_bonito2" parent="trees" unique_id=1029724708 instance=ExtResource("6_usdho")]
 position = Vector2(-368, -341)
 
-[node name="tree_bonito3" parent="." unique_id=1990677455 instance=ExtResource("6_usdho")]
+[node name="tree_bonito3" parent="trees" unique_id=1990677455 instance=ExtResource("6_usdho")]
 position = Vector2(-215, -342)
+
+[node name="AudioStreamPlayer" type="AudioStreamPlayer" parent="." unique_id=1631480427]
+stream = ExtResource("7_56f6y")
+volume_db = -35.547
+autoplay = true

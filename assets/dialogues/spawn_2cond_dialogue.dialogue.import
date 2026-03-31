@@ -1,0 +1,16 @@
+[remap]
+
+importer="dialogue_manager"
+importer_version=15
+type="Resource"
+uid="uid://b32pimlgj3u11"
+path="res://.godot/imported/spawn_2cond_dialogue.dialogue-f38f54c158d914b051f6605b09fe707f.tres"
+
+[deps]
+
+source_file="res://assets/dialogues/spawn_2cond_dialogue.dialogue"
+dest_files=["res://.godot/imported/spawn_2cond_dialogue.dialogue-f38f54c158d914b051f6605b09fe707f.tres"]
+
+[params]
+
+defaults=true

@@ -11,6 +11,7 @@
 [ext_resource type="Texture2D" uid="uid://cj5mldwsc6w1l" path="res://assets/Tilesets/Hills.png" id="7_s4qd3"]
 [ext_resource type="Script" uid="uid://dsofgq1ucsrbn" path="res://script's/text_label.gd" id="8_cn8mj"]
 [ext_resource type="Script" uid="uid://b7aq7420e4wl" path="res://script's/next_area.gd" id="11_vi6nr"]
+[ext_resource type="AudioStream" uid="uid://mtyd3hupo8mc" path="res://assets/audio/Park ambience sound  (Royalty Free) [e_zCM0EobAY].mp3" id="12_ef0q3"]
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_lbpdm"]
 texture = ExtResource("1_vpbfa")
@@ -1980,6 +1981,14 @@ script = ExtResource("11_vi6nr")
 [node name="CollisionShape2D" type="CollisionShape2D" parent="next_area/Area2D" unique_id=1612081792]
 position = Vector2(700, 275.5)
 shape = SubResource("RectangleShape2D_ef0q3")
+
+[node name="background" type="AudioStreamPlayer2D" parent="." unique_id=675055792]
+position = Vector2(-32, -13)
+stream = ExtResource("12_ef0q3")
+volume_db = -11.636
+autoplay = true
+
+[node name="AnimationPlayer" type="AnimationPlayer" parent="." unique_id=179330236]
 
 [connection signal="body_entered" from="text_label/Area2D" to="text_label" method="_on_area_2d_body_entered"]
 [connection signal="body_entered" from="next_area/Area2D" to="next_area" method="_on_area_2d_body_entered"]

@@ -1,12 +1,13 @@
 extends Node2D
 
 const SPAWN_1_ST_DIALOGUE = preload("uid://pmyu8525k02c")
-# Called when the node enters the scene tree for the first time.
+const SPAWN_2_COND_DIALOGUE = preload("uid://b32pimlgj3u11")
+
+
 func _ready() -> void:
 	DialogueManager.show_dialogue_balloon(SPAWN_1_ST_DIALOGUE)
-
-
-# Called every frame. 'delta' is the elapsed time since the previous frame.
+	await get_tree().create_timer(5.0).timeout
+	DialogueManager.show_dialogue_balloon(SPAWN_2_COND_DIALOGUE)
 @warning_ignore("unused_parameter")
 func _process(delta: float) -> void:
 	pass
