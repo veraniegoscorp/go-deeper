@@ -1,0 +1,37 @@
+[gd_scene format=3 uid="uid://ba535u35ctsiw"]
+
+[ext_resource type="Script" uid="uid://cv2jbi1o1gg72" path="res://script's/animation_on_start.gd" id="1_sb4lv"]
+[ext_resource type="Texture2D" uid="uid://ccmjm8iue442i" path="res://assets/cinematics(assets used for it and animations)/black.png" id="2_krrhu"]
+[ext_resource type="AudioStream" uid="uid://1imlblj5kb2p" path="res://assets/audio/mixkit-classic-alarm-995.wav" id="3_ano67"]
+[ext_resource type="AudioStream" uid="uid://dsh5r07c3lfwj" path="res://assets/audio/501102__evretro__8-bit-footsteps.wav" id="4_2mwre"]
+[ext_resource type="AudioStream" uid="uid://cwx45m8g2gyyb" path="res://assets/audio/mixkit-prison-metal-door-close-201.wav" id="5_pmkr0"]
+[ext_resource type="AudioStream" uid="uid://d3sgll1mewcas" path="res://assets/audio/heart breath.mp3" id="6_txb36"]
+
+[node name="animation on start" type="Node2D" unique_id=353883322]
+script = ExtResource("1_sb4lv")
+
+[node name="sprite 1" type="Sprite2D" parent="." unique_id=574313401]
+position = Vector2(-1.5258789e-05, 1)
+scale = Vector2(15.750001, 10.125)
+texture = ExtResource("2_krrhu")
+
+[node name="Camera2D" type="Camera2D" parent="." unique_id=1167224956]
+zoom = Vector2(2.775, 2.775)
+
+[node name="Sprite2D" type="Sprite2D" parent="." unique_id=1760502775]
+
+[node name="AudioStreamPlayer" type="AudioStreamPlayer" parent="." unique_id=877226092]
+stream = ExtResource("3_ano67")
+volume_db = -16.0
+
+[node name="AudioStreamPlayer2" type="AudioStreamPlayer" parent="." unique_id=822784526]
+stream = ExtResource("4_2mwre")
+
+[node name="AudioStreamPlayer3" type="AudioStreamPlayer" parent="." unique_id=165035776]
+stream = ExtResource("5_pmkr0")
+volume_db = -10.0
+
+[node name="AudioStreamPlayer4" type="AudioStreamPlayer" parent="." unique_id=1807531869]
+stream = ExtResource("6_txb36")
+volume_db = -10.0
+autoplay = true

@@ -11,7 +11,7 @@ config_version=5
 [application]
 
 config/name="go deeper"
-run/main_scene="uid://hracrkajt5n5"
+run/main_scene="uid://ba535u35ctsiw"
 config/features=PackedStringArray("4.6", "Forward Plus")
 
 [autoload]
@@ -28,7 +28,7 @@ folder_colors={
 "res://addons/": "gray",
 "res://assets/": "green",
 "res://script's/": "purple",
-"res://tcne's/": "red"
+"res://tcnes/": "red"
 }
 
 [input]
