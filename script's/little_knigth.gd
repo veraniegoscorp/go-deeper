@@ -14,6 +14,8 @@ func _ready():
 	DialogueManager.dialogue_started.connect(_on_dialogue_started)
 	DialogueManager.dialogue_ended.connect(_on_dialogue_ended)
 
+
+
 @warning_ignore("unused_parameter")
 func _on_dialogue_started(dialogue):
 	can_move = false

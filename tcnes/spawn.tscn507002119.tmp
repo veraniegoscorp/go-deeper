@@ -7,8 +7,8 @@
 [ext_resource type="Texture2D" uid="uid://76ed6u0yy7c5" path="res://assets/Tilesets/Fences.png" id="5_cn8mj"]
 [ext_resource type="PackedScene" uid="uid://dw6uxkn1qih3i" path="res://tcnes/tree_bonito.tscn" id="6_cn8mj"]
 [ext_resource type="Texture2D" uid="uid://cj5mldwsc6w1l" path="res://assets/Tilesets/Hills.png" id="7_s4qd3"]
+[ext_resource type="AudioStream" uid="uid://bx5me1limg6bp" path="res://assets/audio/Forbidden Grotto.ogg" id="7_vi6nr"]
 [ext_resource type="Texture2D" uid="uid://ccmjm8iue442i" path="res://assets/cinematics(assets used for it and animations)/black.png" id="8_cn8mj"]
-[ext_resource type="AudioStream" uid="uid://mtyd3hupo8mc" path="res://assets/audio/Park ambience sound  (Royalty Free) [e_zCM0EobAY].mp3" id="8_ey1jt"]
 [ext_resource type="Script" uid="uid://bgemwsftm0lj7" path="res://script's/area_2d.gd" id="10_s4qd3"]
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_ul8lc"]
@@ -1312,11 +1312,12 @@ position = Vector2(-264, -286)
 position = Vector2(-215, -342)
 
 [node name="AudioStreamPlayer" type="AudioStreamPlayer" parent="." unique_id=1631480427]
-stream = ExtResource("8_ey1jt")
+stream = ExtResource("7_vi6nr")
 volume_db = -35.547
 autoplay = true
 
 [node name="Black" type="Sprite2D" parent="." unique_id=850605684]
+visible = false
 z_index = 4
 position = Vector2(27, -30.75)
 scale = Vector2(45.5625, 29.828125)
