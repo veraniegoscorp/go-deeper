@@ -2,6 +2,7 @@
 
 [ext_resource type="Script" uid="uid://dw8vwleukj4qo" path="res://script's/amaro_npc.gd" id="1_sjg2y"]
 [ext_resource type="Texture2D" uid="uid://ytd4fd4oj3gj" path="res://assets/npcs/amaro-Sheet.png" id="1_vke38"]
+[ext_resource type="AudioStream" uid="uid://cg74aqr2x5qr3" path="res://assets/audio/Slurp⧸Lick - Sound Effect for editing [jaXiqeD0xjM].mp3" id="3_liou1"]
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_sjg2y"]
 atlas = ExtResource("1_vke38")
@@ -88,5 +89,10 @@ shape = SubResource("CircleShape2D_xptei")
 [node name="CollisionShape2D" type="CollisionShape2D" parent="StaticBody2D" unique_id=2145009596]
 position = Vector2(-1, 7)
 shape = SubResource("CircleShape2D_diq0q")
+
+[node name="AudioStreamPlayer2D" type="AudioStreamPlayer2D" parent="." unique_id=1804573806]
+stream = ExtResource("3_liou1")
+volume_db = -5.818
+pitch_scale = 2.01
 
 [connection signal="body_entered" from="." to="." method="_on_body_entered"]

@@ -16,7 +16,7 @@ var is_dialoge_active=false
 func _process(delta: float) -> void:
 	if is_player_close and Input.is_action_just_pressed("ui_accept") and not is_dialoge_active:
 		$AnimatedSprite2D.play("talk")
-		DialogueManager.show_dialogue_balloon(AMARO_NPC)
+		DialogueManager.show_dialogue_balloon(AMARO_NPC, "start", [self])
 		is_player_close=false
 
 
@@ -27,7 +27,28 @@ func dialogo_activo(dialogue):
 @warning_ignore("unused_parameter")
 func dialogo_terminado(dialogue):
 	await get_tree().create_timer(0.2).timeout
+	$AnimatedSprite2D.stop()
+	
 	is_dialoge_active=false
+
+func play_slurp():
+	$AudioStreamPlayer2D.pitch_scale = 1.0
+	$AudioStreamPlayer2D.play()
+
+
+func play_deeper_slurp():
+	$AudioStreamPlayer2D.pitch_scale = 0.5
+	$AudioStreamPlayer2D.play()
+
+
+func play_deeper_slurp2():
+	$AudioStreamPlayer2D.pitch_scale = 0.7
+	$AudioStreamPlayer2D.play()
+
+
+func play_deeper_slurp3():
+	$AudioStreamPlayer2D.pitch_scale = 0.3
+	$AudioStreamPlayer2D.play()
 
 
 @warning_ignore("unused_parameter")
