@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://c1kaeu4l25jee"
+path="res://.godot/imported/Timeline 1.mp3-398cac6586183fbfb0fec2281dcef5a6.mp3str"
+
+[deps]
+
+source_file="res://assets/audio/Timeline 1.mp3"
+dest_files=["res://.godot/imported/Timeline 1.mp3-398cac6586183fbfb0fec2281dcef5a6.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

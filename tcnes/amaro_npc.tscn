@@ -3,6 +3,7 @@
 [ext_resource type="Script" uid="uid://dw8vwleukj4qo" path="res://script's/amaro_npc.gd" id="1_sjg2y"]
 [ext_resource type="Texture2D" uid="uid://ytd4fd4oj3gj" path="res://assets/npcs/amaro-Sheet.png" id="1_vke38"]
 [ext_resource type="AudioStream" uid="uid://cg74aqr2x5qr3" path="res://assets/audio/Slurp⧸Lick - Sound Effect for editing [jaXiqeD0xjM].mp3" id="3_liou1"]
+[ext_resource type="AudioStream" uid="uid://c1kaeu4l25jee" path="res://assets/audio/Timeline 1.mp3" id="4_fpcgo"]
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_sjg2y"]
 atlas = ExtResource("1_vke38")
@@ -94,5 +95,9 @@ shape = SubResource("CircleShape2D_diq0q")
 stream = ExtResource("3_liou1")
 volume_db = -5.818
 pitch_scale = 2.01
+
+[node name="talk_aud" type="AudioStreamPlayer2D" parent="." unique_id=1644445588]
+stream = ExtResource("4_fpcgo")
+volume_db = -5.0
 
 [connection signal="body_entered" from="." to="." method="_on_body_entered"]

@@ -31,6 +31,10 @@ func dialogo_terminado(dialogue):
 	
 	is_dialoge_active=false
 
+func play_talk():
+	$talk_aud.play()
+
+
 func play_slurp():
 	$AudioStreamPlayer2D.pitch_scale = 1.0
 	$AudioStreamPlayer2D.play()

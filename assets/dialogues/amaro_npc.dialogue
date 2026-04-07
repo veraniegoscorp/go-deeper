@@ -1,28 +1,28 @@
 ~ start 
-amaro: mi mami me dice que soy retrasado.... [speed=0.5] no lo entiendo porque soy [wave]aries
-amaro: como sea señor que lo trae por aqui?
+amaro: [do! play_talk()]mi mami me dice que soy retrasado.... [speed=0.5] no lo entiendo porque soy [wave]aries
+amaro: [do! play_talk()]como sea señor que lo trae por aqui?
 little knight: [speed=0.5]tengo 12 amigo, no me digas señor..[speed=1] oh bueno como sea, donde estamos?
-amaro: no se señor *slurp* [do play_slurp()]
-mi mami *slurp*[do play_deeper_slurp()]
-me dijo que *sluuurp*[do play_deeper_slurp2()]esperara aqui, se fue a hacer unos
-[speed=0.4][do! play_deeper_slurp3()]*sonidos de sorbeteos fuertes...*
+amaro: [do! play_talk()]no se señor *slurp* [do play_slurp()]
+[do! play_talk()]mi mami *slurp*[do play_deeper_slurp()]
+[do! play_talk()]me dijo que *sluuurp*[do play_deeper_slurp2()]esperara aqui, se fue a hacer unos
+[do! play_talk()][speed=0.4][do! play_deeper_slurp3()]*sonidos de sorbeteos fuertes...*
 
 little knight: [speed=2]QUIERES POR FAVOR dejar de chupar eso??? porfavor necesito ayuda..
 
 
 
-amaro: [do play_slurp()][speed=0.5] *sluuuuurp* [speed=1] bueno señor
+amaro: [do play_slurp()][speed=0.5] *sluuuuurp* [speed=1][do! play_talk()] bueno señor
 little knight: te dije que no me llama... bueno como sea dime donde estamos?
-amaro: ahhh estamos en la ciudad abandonada de goo depeer 
+amaro: [do! play_talk()]ahhh estamos en la ciudad abandonada de goo depeer 
 - goo deeper? que es eso?
-	amaro: era una ciudad abandonada en la cual vivian aventureros fuertisisisisimos [speed=0.5][do play_deeper_slurp()]*ssslurppp*
-	amaro: pero fueron demasiado avariciosos, la ciudad tenia oro y riquezas por monton sin embargo mientras mas minaban mas raro se ponia la cueva
-	amaro: un dia simplemente se empezaron a volverse locos, no se reconocian a si mismos, se veian diferentes asi que los mas fuertes se encerraron abajo para que nadie mas baje
+	amaro: [do! play_talk()]era una ciudad abandonada en la cual vivian aventureros fuertisisisisimos [speed=0.5][do play_deeper_slurp()]*ssslurppp*
+	amaro: [do! play_talk()]pero fueron demasiado avariciosos, la ciudad tenia oro y riquezas por monton sin embargo mientras mas minaban mas raro se ponia la cueva
+	amaro: [do! play_talk()]un dia simplemente se empezaron a volverse locos, no se reconocian a si mismos, se veian diferentes asi que los mas fuertes se encerraron abajo para que nadie mas baje
 - que es este lugar exactamente?
-	amaro: mi mami dice que es el lugar donde vive mi papi y tenemos que esperar a que vuelva por eso venimos todos los dias
-	amaro: creo que es un lugar magico porque mi mami le dice a un señor con el que se ve aqui para comprar "polvo de hadas"
+	amaro: [do! play_talk()]mi mami dice que es el lugar donde vive mi papi y tenemos que esperar a que vuelva por eso venimos todos los dias
+	amaro: [do! play_talk()]creo que es un lugar magico porque mi mami le dice a un señor con el que se ve aqui para comprar "polvo de hadas"
 	little knight: esa no era mi-
-	amaro: mi mami tambien dice que tengo que tener cuidado de entrar a la cueva porque hay señores malos que quieren comerse mi lolipop
+	amaro: [do! play_talk()]mi mami tambien dice que tengo que tener cuidado de entrar a la cueva porque hay señores malos que quieren comerse mi lolipop
 - empezar denuevo => start
 - salir => END
 => END
