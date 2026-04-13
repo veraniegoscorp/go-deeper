@@ -1,0 +1,21 @@
+[gd_scene format=3 uid="uid://caf4y4uwxokw1"]
+
+[ext_resource type="Texture2D" uid="uid://c4gyo05yra1mj" path="res://assets/backround/Arbustito_bonito.png" id="1_warnt"]
+
+[sub_resource type="CapsuleShape2D" id="CapsuleShape2D_rit4a"]
+radius = 55.992626
+height = 167.99934
+
+[node name="arbustito_1" type="StaticBody2D" unique_id=1161851794]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="." unique_id=567239923]
+rotation = 1.5706338
+scale = Vector2(0.22, 0.22)
+shape = SubResource("CapsuleShape2D_rit4a")
+
+[node name="Sprite2D" type="Sprite2D" parent="." unique_id=534542933]
+texture_filter = 1
+position = Vector2(4, -8)
+scale = Vector2(0.46999997, 0.46999997)
+texture = ExtResource("1_warnt")
+region_rect = Rect2(9.193161, 42.626694, 64.00018, 45.879646)

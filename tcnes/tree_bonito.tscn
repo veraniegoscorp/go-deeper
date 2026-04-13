@@ -4,6 +4,7 @@
 
 [sub_resource type="CapsuleShape2D" id="CapsuleShape2D_cchk5"]
 radius = 12.0
+height = 38.0
 
 [node name="tree_bonito" type="StaticBody2D" unique_id=1040809979]
 z_index = 1
@@ -14,5 +15,5 @@ texture = ExtResource("1_jaaf7")
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="." unique_id=1711655742]
 texture_filter = 1
-position = Vector2(-2, 38)
+position = Vector2(-2, 35)
 shape = SubResource("CapsuleShape2D_cchk5")

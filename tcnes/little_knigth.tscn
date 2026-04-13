@@ -6,8 +6,8 @@
 [ext_resource type="AudioStream" uid="uid://dsh5r07c3lfwj" path="res://assets/audio/501102__evretro__8-bit-footsteps.wav" id="4_wrm7p"]
 
 [sub_resource type="CapsuleShape2D" id="CapsuleShape2D_0dayi"]
-radius = 4.878049
-height = 24.390244
+radius = 8.536586
+height = 17.073172
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_bgx4p"]
 atlas = ExtResource("1_7v8vh")
@@ -346,7 +346,7 @@ animations = [{
 script = ExtResource("1_0dayi")
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="." unique_id=1852708033]
-position = Vector2(0, 5)
+position = Vector2(0, 9)
 scale = Vector2(0.82, 0.82)
 shape = SubResource("CapsuleShape2D_0dayi")
 
