@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://b142obwidbeke"
-path="res://.godot/imported/Tilled_Dirt_Wide.png-fea9ecafe24c582cafc9fd63aba403ed.ctex"
+uid="uid://dw1girpdl0olm"
+path="res://.godot/imported/ME_Singles_Fire_Station_16x16_Fire_Hydrant.png-98e50417ebe1d7668e72c66fdad879c7.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/assets-modern/Tilesets/Tilled_Dirt_Wide.png"
-dest_files=["res://.godot/imported/Tilled_Dirt_Wide.png-fea9ecafe24c582cafc9fd63aba403ed.ctex"]
+source_file="res://assets/assets-tiles-props/assets/ME_Singles_Fire_Station_16x16_Fire_Hydrant.png"
+dest_files=["res://.godot/imported/ME_Singles_Fire_Station_16x16_Fire_Hydrant.png-98e50417ebe1d7668e72c66fdad879c7.ctex"]
 
 [params]
 

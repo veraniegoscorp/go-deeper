@@ -1,6 +1,6 @@
 [gd_scene format=3 uid="uid://dw6uxkn1qih3i"]
 
-[ext_resource type="Texture2D" uid="uid://dew4yabc3kfw2" path="res://assets/assets-modern/backround/Arbolito bonito sprite.png" id="1_jaaf7"]
+[ext_resource type="Texture2D" uid="uid://dew4yabc3kfw2" path="res://assets/assets-tiles-props/backround/Arbolito bonito sprite.png" id="1_jaaf7"]
 
 [sub_resource type="CapsuleShape2D" id="CapsuleShape2D_cchk5"]
 radius = 12.0

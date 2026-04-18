@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://cqmgtevkclk1h"
-path="res://.godot/imported/Arbustito_bonito2.png-5a7588d89e2ed7e962ed0052eb5f0d05.ctex"
+uid="uid://bxfjomr0jjlxq"
+path="res://.godot/imported/Tilled Dirt.png-4b08253732ec04f3c6ca12e59cc9dd9b.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/assets-modern/backround/Arbustito_bonito2.png"
-dest_files=["res://.godot/imported/Arbustito_bonito2.png-5a7588d89e2ed7e962ed0052eb5f0d05.ctex"]
+source_file="res://assets/assets-tiles-props/Tilesets/Tilled Dirt.png"
+dest_files=["res://.godot/imported/Tilled Dirt.png-4b08253732ec04f3c6ca12e59cc9dd9b.ctex"]
 
 [params]
 

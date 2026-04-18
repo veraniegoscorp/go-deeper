@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://di78mu457gp36"
-path="res://.godot/imported/Tilled_Dirt_v2.png-1362f1707a73121483f114ac050de052.ctex"
+uid="uid://deygypqbcpmmi"
+path="res://.godot/imported/dungeon_.png-c717f3e740be9bf8db7f0f578107a6a2.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/assets-modern/Tilesets/Tilled_Dirt_v2.png"
-dest_files=["res://.godot/imported/Tilled_Dirt_v2.png-1362f1707a73121483f114ac050de052.ctex"]
+source_file="res://assets/assets-tiles-props/Tilesets/dungeon_.png"
+dest_files=["res://.godot/imported/dungeon_.png-c717f3e740be9bf8db7f0f578107a6a2.ctex"]
 
 [params]
 

@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://deygypqbcpmmi"
-path="res://.godot/imported/dungeon_.png-f0a65baf2f5515ed1f75d001f4e5264f.ctex"
+uid="uid://76ed6u0yy7c5"
+path="res://.godot/imported/Fences.png-992cf1d71df6ebcdd93407c7e26b0a6b.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/assets-modern/Tilesets/dungeon_.png"
-dest_files=["res://.godot/imported/dungeon_.png-f0a65baf2f5515ed1f75d001f4e5264f.ctex"]
+source_file="res://assets/assets-tiles-props/Tilesets/Fences.png"
+dest_files=["res://.godot/imported/Fences.png-992cf1d71df6ebcdd93407c7e26b0a6b.ctex"]
 
 [params]
 

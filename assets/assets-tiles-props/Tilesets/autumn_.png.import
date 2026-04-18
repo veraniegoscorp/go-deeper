@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://c4gyo05yra1mj"
-path="res://.godot/imported/Arbustito_bonito.png-41529496e652362a0adb9cc922c13b45.ctex"
+uid="uid://dn8yuhbx154nk"
+path="res://.godot/imported/autumn_.png-fc829d783e92c7567985c33b89c4e1ef.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/assets-modern/backround/Arbustito_bonito.png"
-dest_files=["res://.godot/imported/Arbustito_bonito.png-41529496e652362a0adb9cc922c13b45.ctex"]
+source_file="res://assets/assets-tiles-props/Tilesets/autumn_.png"
+dest_files=["res://.godot/imported/autumn_.png-fc829d783e92c7567985c33b89c4e1ef.ctex"]
 
 [params]
 

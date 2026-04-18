@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://c0eb62fbb10ni"
-path="res://.godot/imported/Bitmask references 2.png-a137c2631b1b97b210fb973ccccecd4e.ctex"
+uid="uid://dbehjb8llpcff"
+path="res://.godot/imported/Doors.png-1bb7350328c371b9dfa54bb928140e17.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/assets-modern/Tilesets/Bitmask references 2.png"
-dest_files=["res://.godot/imported/Bitmask references 2.png-a137c2631b1b97b210fb973ccccecd4e.ctex"]
+source_file="res://assets/assets-tiles-props/Tilesets/Doors.png"
+dest_files=["res://.godot/imported/Doors.png-1bb7350328c371b9dfa54bb928140e17.ctex"]
 
 [params]
 

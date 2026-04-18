@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://dew4yabc3kfw2"
-path="res://.godot/imported/Arbolito bonito sprite.png-df6bc2ace7245ebf9c58fe541adf2854.ctex"
+uid="uid://csvs6htkoltg0"
+path="res://.godot/imported/brown.png-c1f201957f0209da5b9d9f49c7b0cec7.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/assets-modern/backround/Arbolito bonito sprite.png"
-dest_files=["res://.godot/imported/Arbolito bonito sprite.png-df6bc2ace7245ebf9c58fe541adf2854.ctex"]
+source_file="res://assets/assets-tiles-props/Tilesets/brown.png"
+dest_files=["res://.godot/imported/brown.png-c1f201957f0209da5b9d9f49c7b0cec7.ctex"]
 
 [params]
 

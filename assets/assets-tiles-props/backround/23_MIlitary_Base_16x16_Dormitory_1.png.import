@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://cgciystvcp8cm"
-path="res://.godot/imported/Water.png-fdc214b994f82539bd5f82534dbb0620.ctex"
+uid="uid://cl602wudal5sl"
+path="res://.godot/imported/23_MIlitary_Base_16x16_Dormitory_1.png-f6845bb048fa485960001305410f65c6.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/assets-modern/Tilesets/Water.png"
-dest_files=["res://.godot/imported/Water.png-fdc214b994f82539bd5f82534dbb0620.ctex"]
+source_file="res://assets/assets-tiles-props/backround/23_MIlitary_Base_16x16_Dormitory_1.png"
+dest_files=["res://.godot/imported/23_MIlitary_Base_16x16_Dormitory_1.png-f6845bb048fa485960001305410f65c6.ctex"]
 
 [params]
 

@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://csvs6htkoltg0"
-path="res://.godot/imported/brown.png-a70a0521cf99e875f999a34bf5a95608.ctex"
+uid="uid://cj5mldwsc6w1l"
+path="res://.godot/imported/Hills.png-31f5a06fa802895430245267d084567e.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/assets-modern/Tilesets/brown.png"
-dest_files=["res://.godot/imported/brown.png-a70a0521cf99e875f999a34bf5a95608.ctex"]
+source_file="res://assets/assets-tiles-props/Tilesets/Hills.png"
+dest_files=["res://.godot/imported/Hills.png-31f5a06fa802895430245267d084567e.ctex"]
 
 [params]
 

@@ -1,13 +1,13 @@
 [gd_scene format=4 uid="uid://hracrkajt5n5"]
 
 [ext_resource type="Script" uid="uid://bhxp8reeeil4y" path="res://script's/spawn.gd" id="1_gu6et"]
-[ext_resource type="Texture2D" uid="uid://bbe73y77rxyqw" path="res://assets/assets-modern/Tilesets/Grass.png" id="1_vpbfa"]
+[ext_resource type="Texture2D" uid="uid://bbe73y77rxyqw" path="res://assets/assets-tiles-props/Tilesets/Grass.png" id="1_vpbfa"]
 [ext_resource type="PackedScene" uid="uid://dymfe7vwp7bt" path="res://tcnes/little_knigth.tscn" id="2_hk666"]
-[ext_resource type="Texture2D" uid="uid://bg8r2y0n46q3c" path="res://assets/assets-modern/Tilesets/Tilled_Dirt_Wide_v2.png" id="2_x8kce"]
-[ext_resource type="Texture2D" uid="uid://76ed6u0yy7c5" path="res://assets/assets-modern/Tilesets/Fences.png" id="5_cn8mj"]
+[ext_resource type="Texture2D" uid="uid://bg8r2y0n46q3c" path="res://assets/assets-tiles-props/Tilesets/Tilled_Dirt_Wide_v2.png" id="2_x8kce"]
+[ext_resource type="Texture2D" uid="uid://76ed6u0yy7c5" path="res://assets/assets-tiles-props/Tilesets/Fences.png" id="5_cn8mj"]
 [ext_resource type="PackedScene" uid="uid://dw6uxkn1qih3i" path="res://tcnes/tree_bonito.tscn" id="6_cn8mj"]
-[ext_resource type="Texture2D" uid="uid://cj5mldwsc6w1l" path="res://assets/assets-modern/Tilesets/Hills.png" id="7_s4qd3"]
-[ext_resource type="Texture2D" uid="uid://ccmjm8iue442i" path="res://assets/assets-modern/cinematics(assets used for it and animations)/black.png" id="8_cn8mj"]
+[ext_resource type="Texture2D" uid="uid://cj5mldwsc6w1l" path="res://assets/assets-tiles-props/Tilesets/Hills.png" id="7_s4qd3"]
+[ext_resource type="Texture2D" uid="uid://ccmjm8iue442i" path="res://assets/assets-tiles-props/cinematics(assets used for it and animations)/black.png" id="8_cn8mj"]
 [ext_resource type="AudioStream" uid="uid://mtyd3hupo8mc" path="res://sfx(audio)/audio/Park ambience sound  (Royalty Free) [e_zCM0EobAY].mp3" id="8_ey1jt"]
 [ext_resource type="Script" uid="uid://bgemwsftm0lj7" path="res://script's/area_2d.gd" id="10_s4qd3"]
 

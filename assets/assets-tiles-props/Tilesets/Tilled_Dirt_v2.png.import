@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://bkm10y4ue30vm"
-path="res://.godot/imported/Wooden_House_Roof_Tilset.png-eb9f801a7d94e47ef8b00b0ab5647b43.ctex"
+uid="uid://di78mu457gp36"
+path="res://.godot/imported/Tilled_Dirt_v2.png-a8fc16534ac50531ecdbff73ed431206.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/assets-modern/Tilesets/Wooden_House_Roof_Tilset.png"
-dest_files=["res://.godot/imported/Wooden_House_Roof_Tilset.png-eb9f801a7d94e47ef8b00b0ab5647b43.ctex"]
+source_file="res://assets/assets-tiles-props/Tilesets/Tilled_Dirt_v2.png"
+dest_files=["res://.godot/imported/Tilled_Dirt_v2.png-a8fc16534ac50531ecdbff73ed431206.ctex"]
 
 [params]
 

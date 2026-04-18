@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://bewj68ihrqjte"
-path="res://.godot/imported/Wooden House.png-cf3f02687fcde5f98e856fc63c692122.ctex"
+uid="uid://cgciystvcp8cm"
+path="res://.godot/imported/Water.png-dc4425be53ce8bfea192e59c78e97600.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/assets-modern/Tilesets/Wooden House.png"
-dest_files=["res://.godot/imported/Wooden House.png-cf3f02687fcde5f98e856fc63c692122.ctex"]
+source_file="res://assets/assets-tiles-props/Tilesets/Water.png"
+dest_files=["res://.godot/imported/Water.png-dc4425be53ce8bfea192e59c78e97600.ctex"]
 
 [params]
 

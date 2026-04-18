@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://ces2o3mrlhbo6"
-path="res://.godot/imported/Bitmask references 1.png-3be672b047fa011b92111a131ce601cf.ctex"
+uid="uid://cqmgtevkclk1h"
+path="res://.godot/imported/Arbustito_bonito2.png-a91425040b61f10721172fb5e857e9ea.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/assets-modern/Tilesets/Bitmask references 1.png"
-dest_files=["res://.godot/imported/Bitmask references 1.png-3be672b047fa011b92111a131ce601cf.ctex"]
+source_file="res://assets/assets-tiles-props/backround/Arbustito_bonito2.png"
+dest_files=["res://.godot/imported/Arbustito_bonito2.png-a91425040b61f10721172fb5e857e9ea.ctex"]
 
 [params]
 

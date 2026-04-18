@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://dofivp53xhdfn"
-path="res://.godot/imported/24_Additional_Houses_Country_House_No_Banisters_16x16.png-bf1f9be9c14cf67e9032e88e7b83c5c5.ctex"
+uid="uid://756yv0rkffjm"
+path="res://.godot/imported/Wooden_House_Walls_Tilset.png-70727469486ef6c9f7cc2da46e135ddb.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/assets-modern/backround/24_Additional_Houses_Country_House_No_Banisters_16x16.png"
-dest_files=["res://.godot/imported/24_Additional_Houses_Country_House_No_Banisters_16x16.png-bf1f9be9c14cf67e9032e88e7b83c5c5.ctex"]
+source_file="res://assets/assets-tiles-props/Tilesets/Wooden_House_Walls_Tilset.png"
+dest_files=["res://.godot/imported/Wooden_House_Walls_Tilset.png-70727469486ef6c9f7cc2da46e135ddb.ctex"]
 
 [params]
 

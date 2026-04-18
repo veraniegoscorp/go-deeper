@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://dn8yuhbx154nk"
-path="res://.godot/imported/autumn_.png-362d288ab4d1cb5647812ffcff524315.ctex"
+uid="uid://bkm10y4ue30vm"
+path="res://.godot/imported/Wooden_House_Roof_Tilset.png-34472dda2aeb2aa3fbc51bb26171af1d.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/assets-modern/Tilesets/autumn_.png"
-dest_files=["res://.godot/imported/autumn_.png-362d288ab4d1cb5647812ffcff524315.ctex"]
+source_file="res://assets/assets-tiles-props/Tilesets/Wooden_House_Roof_Tilset.png"
+dest_files=["res://.godot/imported/Wooden_House_Roof_Tilset.png-34472dda2aeb2aa3fbc51bb26171af1d.ctex"]
 
 [params]
 
