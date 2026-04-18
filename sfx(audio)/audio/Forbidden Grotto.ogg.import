@@ -1,0 +1,19 @@
+[remap]
+
+importer="oggvorbisstr"
+type="AudioStreamOggVorbis"
+uid="uid://bx5me1limg6bp"
+path="res://.godot/imported/Forbidden Grotto.ogg-06440af57b6dfcd08403d8fd7547ea72.oggvorbisstr"
+
+[deps]
+
+source_file="res://sfx(audio)/audio/Forbidden Grotto.ogg"
+dest_files=["res://.godot/imported/Forbidden Grotto.ogg-06440af57b6dfcd08403d8fd7547ea72.oggvorbisstr"]
+
+[params]
+
+loop=true
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://d3sgll1mewcas"
+path="res://.godot/imported/heart breath.mp3-55ba92553b8c98f3a92edf2c1a2f4995.mp3str"
+
+[deps]
+
+source_file="res://sfx(audio)/audio/heart breath.mp3"
+dest_files=["res://.godot/imported/heart breath.mp3-55ba92553b8c98f3a92edf2c1a2f4995.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

@@ -27,6 +27,12 @@ enabled=PackedStringArray("res://addons/dialogue_manager/plugin.cfg")
 folder_colors={
 "res://addons/": "gray",
 "res://assets/": "green",
+"res://assets/assets-modern/": "red",
+"res://assets/dialogues/": "green",
+"res://assets/interactuables/": "green",
+"res://assets/load screen/": "green",
+"res://little_knigth/": "gray",
+"res://npcs/": "purple",
 "res://script's/": "purple",
 "res://tcnes/": "red"
 }

@@ -1,9 +1,9 @@
 [gd_scene format=3 uid="uid://cikpwju2nrv7d"]
 
 [ext_resource type="Script" uid="uid://dw8vwleukj4qo" path="res://script's/amaro_npc.gd" id="1_sjg2y"]
-[ext_resource type="Texture2D" uid="uid://ytd4fd4oj3gj" path="res://assets/npcs/amaro-Sheet.png" id="1_vke38"]
-[ext_resource type="AudioStream" uid="uid://cg74aqr2x5qr3" path="res://assets/audio/Slurp⧸Lick - Sound Effect for editing [jaXiqeD0xjM].mp3" id="3_liou1"]
-[ext_resource type="AudioStream" uid="uid://c1kaeu4l25jee" path="res://assets/audio/Timeline 1.mp3" id="4_fpcgo"]
+[ext_resource type="Texture2D" uid="uid://ytd4fd4oj3gj" path="res://npcs/amaro-Sheet.png" id="1_vke38"]
+[ext_resource type="AudioStream" uid="uid://cg74aqr2x5qr3" path="res://sfx(audio)/audio/Slurp⧸Lick - Sound Effect for editing [jaXiqeD0xjM].mp3" id="3_liou1"]
+[ext_resource type="AudioStream" uid="uid://c1kaeu4l25jee" path="res://sfx(audio)/audio/Timeline 1.mp3" id="4_fpcgo"]
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_sjg2y"]
 atlas = ExtResource("1_vke38")
@@ -101,3 +101,4 @@ stream = ExtResource("4_fpcgo")
 volume_db = -5.0
 
 [connection signal="body_entered" from="." to="." method="_on_body_entered"]
+[connection signal="body_exited" from="." to="." method="_on_body_exited"]

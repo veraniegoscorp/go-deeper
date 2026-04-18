@@ -57,4 +57,9 @@ func play_deeper_slurp3():
 
 @warning_ignore("unused_parameter")
 func _on_body_entered(body: Node2D) -> void:
-	is_player_close=true
+	if body.name==("little knight"):
+		is_player_close=true
+
+func _on_body_exited(body: Node2D) -> void:
+	if body.name==("little knight"):
+		is_player_close=false

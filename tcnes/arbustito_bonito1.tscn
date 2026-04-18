@@ -1,6 +1,6 @@
 [gd_scene format=3 uid="uid://caf4y4uwxokw1"]
 
-[ext_resource type="Texture2D" uid="uid://c4gyo05yra1mj" path="res://assets/backround/Arbustito_bonito.png" id="1_warnt"]
+[ext_resource type="Texture2D" uid="uid://c4gyo05yra1mj" path="res://assets/assets-modern/backround/Arbustito_bonito.png" id="1_warnt"]
 
 [sub_resource type="CapsuleShape2D" id="CapsuleShape2D_rit4a"]
 radius = 55.992626
