@@ -1,36 +1,44 @@
 extends CharacterBody2D
 
+
+#-------------------------------------declaracion de variables------------------------------
 var SPEED = 100.0
 const MIN_ANIMATION_TIME = 0.1 # tiempo mínimo antes de cambiar animación
-
 @onready var sprite = $AnimatedSprite2D
-
 var last_direction := Vector2.DOWN
 var current_animation := ""
 var animation_timer := 0.0
-var can_move= true
+var can_move = true
 
+
+
+#--------------------------------------cargar la funcion de dialogos--------------------------
 func _ready():
 	DialogueManager.dialogue_started.connect(_on_dialogue_started)
 	DialogueManager.dialogue_ended.connect(_on_dialogue_ended)
 
 
 
+#-------------------------------------get out the movement in the dialogue--------------------
 @warning_ignore("unused_parameter")
 func _on_dialogue_started(dialogue):
 	can_move = false
-	SPEED=0
+	SPEED = 0
 	velocity = Vector2.ZERO
+
 
 @warning_ignore("unused_parameter")
 func _on_dialogue_ended(dialogue):
 	can_move = true
-	SPEED=100
+	SPEED = 100
+
+
+
 
 
 func _physics_process(delta: float) -> void:
 	var input_vector := Vector2.ZERO
-	
+#-------------------------------------quitarle el movimiento------------------------------
 	if not can_move:
 		velocity = Vector2.ZERO
 		move_and_slide()
@@ -38,23 +46,34 @@ func _physics_process(delta: float) -> void:
 		$pasos.stop()
 		return
 
-	# Capturar input
+
+
+
+#-------------------------------------capturar imput------------------------------
 	input_vector.x = Input.get_action_strength("right") - Input.get_action_strength("left")
 	input_vector.y = Input.get_action_strength("down") - Input.get_action_strength("up")
 	input_vector = input_vector.normalized()
 
-	# 🔊 SONIDO DE PASOS (AHORA SÍ FUNCIONA)
+
+
+#-------------------------------------sonidos------------------------------
 	if input_vector != Vector2.ZERO:
 		if not $pasos.playing:
 			$pasos.play()
 	else:
 		$pasos.stop()
 
-	# Guardar dirección
+
+
+
+#-------------------------------------declaracion de variables------------------------------
 	if input_vector != Vector2.ZERO:
 		last_direction = input_vector
 
-	# Movimiento
+
+
+
+#-------------------------------------movimiento y timer para las animaciones----------------
 	velocity = input_vector * SPEED
 	move_and_slide()
 
@@ -62,6 +81,7 @@ func _physics_process(delta: float) -> void:
 	animation_timer -= delta
 	_update_animation(last_direction, input_vector)
 
+#-------------------------------------animaciones------------------------------
 func _update_animation(direction: Vector2, input_vector: Vector2) -> void:
 	var new_animation := ""
 
@@ -101,3 +121,12 @@ func _update_animation(direction: Vector2, input_vector: Vector2) -> void:
 		sprite.play(new_animation)
 		current_animation = new_animation
 		animation_timer = MIN_ANIMATION_TIME
+
+
+
+
+#-------------------------------------capturar ataques------------------------------
+
+
+
+#-------------------------------------capturar interacciones------------------------------

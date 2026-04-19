@@ -6,8 +6,8 @@
 [ext_resource type="AudioStream" uid="uid://dsh5r07c3lfwj" path="res://sfx(audio)/audio/501102__evretro__8-bit-footsteps.wav" id="4_wrm7p"]
 
 [sub_resource type="CapsuleShape2D" id="CapsuleShape2D_0dayi"]
-radius = 7.3170733
-height = 26.82927
+radius = 6.097561
+height = 12.195122
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_bgx4p"]
 atlas = ExtResource("1_7v8vh")
@@ -345,8 +345,7 @@ animations = [{
 [node name="little knight" type="CharacterBody2D" unique_id=1143972731]
 script = ExtResource("1_0dayi")
 
-[node name="CollisionShape2D" type="CollisionShape2D" parent="." unique_id=1852708033]
-position = Vector2(0, 5)
+[node name="hitbox" type="CollisionShape2D" parent="." unique_id=1852708033]
 scale = Vector2(0.82, 0.82)
 shape = SubResource("CapsuleShape2D_0dayi")
 
@@ -354,6 +353,7 @@ shape = SubResource("CapsuleShape2D_0dayi")
 texture_filter = 1
 sprite_frames = SubResource("SpriteFrames_q4nsu")
 animation = &"idle_down"
+offset = Vector2(0, -10.885)
 
 [node name="pasos" type="AudioStreamPlayer2D" parent="." unique_id=1893734700]
 stream = ExtResource("4_wrm7p")
