@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://dw1girpdl0olm"
-path="res://.godot/imported/ME_Singles_Fire_Station_16x16_Fire_Hydrant.png-98e50417ebe1d7668e72c66fdad879c7.ctex"
+uid="uid://bc4a1pvp1t74v"
+path="res://.godot/imported/Checkbox_01A_Off.png-7397df529cdfc45000002b5900697a90.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/assets-tiles-props/assets/ME_Singles_Fire_Station_16x16_Fire_Hydrant.png"
-dest_files=["res://.godot/imported/ME_Singles_Fire_Station_16x16_Fire_Hydrant.png-98e50417ebe1d7668e72c66fdad879c7.ctex"]
+source_file="res://assets/assets-tiles-props/assets-for-menu/Checkbox_01A_Off.png"
+dest_files=["res://.godot/imported/Checkbox_01A_Off.png-7397df529cdfc45000002b5900697a90.ctex"]
 
 [params]
 

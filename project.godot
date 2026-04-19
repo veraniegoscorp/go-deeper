@@ -11,7 +11,7 @@ config_version=5
 [application]
 
 config/name="go deeper"
-run/main_scene="uid://ba535u35ctsiw"
+run/main_scene="uid://dfwee7nyo1u87"
 config/features=PackedStringArray("4.6", "Forward Plus")
 
 [autoload]
