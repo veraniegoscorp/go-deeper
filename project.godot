@@ -32,6 +32,7 @@ folder_colors={
 "res://assets/load screen/": "green",
 "res://cave-levels(1-5)/": "pink",
 "res://little_knigth/": "gray",
+"res://little_knigth/weapons/": "yellow",
 "res://npcs/": "purple",
 "res://script's/": "purple",
 "res://tcnes/": "red"

@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://cipj1geevl8dx"
-path="res://.godot/imported/Sprite-0001-Sheet.png-08c0ca3b4b277efc6c1e5d9e3b6fb6c1.ctex"
+uid="uid://jlrpc0i0vif"
+path="res://.godot/imported/broken_sword.png-a65cb97f4c732d08303cf34ffdefc1bb.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://little_knigth/Sprite-0001-Sheet.png"
-dest_files=["res://.godot/imported/Sprite-0001-Sheet.png-08c0ca3b4b277efc6c1e5d9e3b6fb6c1.ctex"]
+source_file="res://little_knigth/weapons/broken_sword.png"
+dest_files=["res://.godot/imported/broken_sword.png-a65cb97f4c732d08303cf34ffdefc1bb.ctex"]
 
 [params]
 

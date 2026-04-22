@@ -252,9 +252,7 @@ texture_filter = 1
 position = Vector2(563, 184.49998)
 scale = Vector2(1.516276, 1.2513889)
 sprite_frames = SubResource("SpriteFrames_nvevt")
-animation = &"previus_page"
-frame = 1
-frame_progress = 0.9413339
+animation = &"next_page"
 
 [node name="menu_pagina1" type="Node2D" parent="." unique_id=373148492]
 visible = false
