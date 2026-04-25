@@ -369,7 +369,6 @@ tile_map_data = PackedByteArray("AADx//3/AAAMAAkAAADx//7/AAAMAAkAAADx////AAAMAAk
 tile_set = SubResource("TileSet_cg5ci")
 
 [node name="little knight" parent="." unique_id=1143972731 instance=ExtResource("2_uiq4f")]
-visible = false
 position = Vector2(-212, -11)
 
 [node name="Camera2D" type="Camera2D" parent="little knight" unique_id=20634294]

@@ -4,6 +4,8 @@
 [ext_resource type="Texture2D" uid="uid://d2471lbbsmd40" path="res://little_knigth/16x32 Idle-Sheet.png" id="1_7v8vh"]
 [ext_resource type="Texture2D" uid="uid://doaof0e0lsqj5" path="res://little_knigth/16x32 Walk-Sheet.png" id="3_aa38s"]
 [ext_resource type="AudioStream" uid="uid://dsh5r07c3lfwj" path="res://sfx(audio)/audio/501102__evretro__8-bit-footsteps.wav" id="4_wrm7p"]
+[ext_resource type="Texture2D" uid="uid://b4qboiyd1r7vr" path="res://little_knigth/weapons/item1.png" id="5_g6nia"]
+[ext_resource type="Script" uid="uid://dqbenlfwc5msk" path="res://script's/center_weapons.gd" id="5_iodlg"]
 
 [sub_resource type="CapsuleShape2D" id="CapsuleShape2D_0dayi"]
 radius = 6.097561
@@ -342,6 +344,9 @@ animations = [{
 "speed": 6.0
 }]
 
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_g6nia"]
+size = Vector2(4.9168777, 17.020111)
+
 [node name="little knight" type="CharacterBody2D" unique_id=1143972731]
 script = ExtResource("1_0dayi")
 
@@ -352,9 +357,27 @@ shape = SubResource("CapsuleShape2D_0dayi")
 [node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="." unique_id=909598251]
 texture_filter = 1
 sprite_frames = SubResource("SpriteFrames_q4nsu")
-animation = &"idle_down"
+animation = &"walk_right"
 offset = Vector2(0, -10.885)
 
 [node name="pasos" type="AudioStreamPlayer2D" parent="." unique_id=1893734700]
 stream = ExtResource("4_wrm7p")
 volume_db = -20.0
+
+[node name="center-weapons" type="Marker2D" parent="." unique_id=983916566]
+z_index = -1
+rotation = 0.014411446
+script = ExtResource("5_iodlg")
+
+[node name="sword-swing" type="Sprite2D" parent="center-weapons" unique_id=1041185269]
+z_index = 1
+texture_filter = 1
+texture = ExtResource("5_g6nia")
+offset = Vector2(6.595, -6.335)
+
+[node name="hurtbox" type="Area2D" parent="center-weapons" unique_id=97086001]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="center-weapons/hurtbox" unique_id=901639446]
+position = Vector2(5.869678, -9.085531)
+rotation = 0.6254696
+shape = SubResource("RectangleShape2D_g6nia")
