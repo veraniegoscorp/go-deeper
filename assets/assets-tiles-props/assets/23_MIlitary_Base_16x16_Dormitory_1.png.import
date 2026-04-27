@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://dew4yabc3kfw2"
-path="res://.godot/imported/Arbolito bonito sprite.png-ad3a8bd62f7763e72bc49732cb472e6a.ctex"
+uid="uid://cl602wudal5sl"
+path="res://.godot/imported/23_MIlitary_Base_16x16_Dormitory_1.png-5681f8d3b5d05747069732d5691da8eb.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/assets-tiles-props/backround/Arbolito bonito sprite.png"
-dest_files=["res://.godot/imported/Arbolito bonito sprite.png-ad3a8bd62f7763e72bc49732cb472e6a.ctex"]
+source_file="res://assets/assets-tiles-props/assets/23_MIlitary_Base_16x16_Dormitory_1.png"
+dest_files=["res://.godot/imported/23_MIlitary_Base_16x16_Dormitory_1.png-5681f8d3b5d05747069732d5691da8eb.ctex"]
 
 [params]
 

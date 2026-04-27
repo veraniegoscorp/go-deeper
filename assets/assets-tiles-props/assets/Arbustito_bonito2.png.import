@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://cl602wudal5sl"
-path="res://.godot/imported/23_MIlitary_Base_16x16_Dormitory_1.png-f6845bb048fa485960001305410f65c6.ctex"
+uid="uid://cqmgtevkclk1h"
+path="res://.godot/imported/Arbustito_bonito2.png-a000cf72410a9ad3bd7d32c29fbf48f7.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/assets-tiles-props/backround/23_MIlitary_Base_16x16_Dormitory_1.png"
-dest_files=["res://.godot/imported/23_MIlitary_Base_16x16_Dormitory_1.png-f6845bb048fa485960001305410f65c6.ctex"]
+source_file="res://assets/assets-tiles-props/assets/Arbustito_bonito2.png"
+dest_files=["res://.godot/imported/Arbustito_bonito2.png-a000cf72410a9ad3bd7d32c29fbf48f7.ctex"]
 
 [params]
 

@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://cqmgtevkclk1h"
-path="res://.godot/imported/Arbustito_bonito2.png-a91425040b61f10721172fb5e857e9ea.ctex"
+uid="uid://dvblepx0enxpk"
+path="res://.godot/imported/ME_Singles_City_Props_16x16_Tree_1.png-ea5b4a5b38f93f7912fde3d591b7bd47.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/assets-tiles-props/backround/Arbustito_bonito2.png"
-dest_files=["res://.godot/imported/Arbustito_bonito2.png-a91425040b61f10721172fb5e857e9ea.ctex"]
+source_file="res://assets/assets-tiles-props/assets/ME_Singles_City_Props_16x16_Tree_1.png"
+dest_files=["res://.godot/imported/ME_Singles_City_Props_16x16_Tree_1.png-ea5b4a5b38f93f7912fde3d591b7bd47.ctex"]
 
 [params]
 

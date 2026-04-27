@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://dofivp53xhdfn"
-path="res://.godot/imported/24_Additional_Houses_Country_House_No_Banisters_16x16.png-604c6e486ce2c31a909bf7d389f347fd.ctex"
+uid="uid://c4ud2n56nuntj"
+path="res://.godot/imported/ME_Singles_Villas_16x16_Tree_1.png-acb29b340d9191ca49ffc616db112769.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/assets-tiles-props/backround/24_Additional_Houses_Country_House_No_Banisters_16x16.png"
-dest_files=["res://.godot/imported/24_Additional_Houses_Country_House_No_Banisters_16x16.png-604c6e486ce2c31a909bf7d389f347fd.ctex"]
+source_file="res://assets/assets-tiles-props/assets/ME_Singles_Villas_16x16_Tree_1.png"
+dest_files=["res://.godot/imported/ME_Singles_Villas_16x16_Tree_1.png-acb29b340d9191ca49ffc616db112769.ctex"]
 
 [params]
 
