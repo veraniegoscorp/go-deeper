@@ -1,0 +1,14 @@
+[gd_scene format=3 uid="uid://b42ncx173sgu8"]
+
+[ext_resource type="Script" uid="uid://c4tcg0bjhg7jr" path="res://script's/tp_tsne's_changer.gd" id="1_aojyt"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_30ua5"]
+size = Vector2(73, 104)
+
+[node name="tp_tsne\'s changer" type="Area2D" unique_id=1800888793]
+script = ExtResource("1_aojyt")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="." unique_id=642563377]
+shape = SubResource("RectangleShape2D_30ua5")
+
+[connection signal="body_entered" from="." to="." method="_on_body_entered"]

@@ -1,0 +1,16 @@
+[remap]
+
+importer="dialogue_manager"
+importer_version=15
+type="Resource"
+uid="uid://dlb6sj3h7oprq"
+path="res://.godot/imported/amaro_npc.dialogue-f305d989b1c55ab887f1d19dedbc355d.tres"
+
+[deps]
+
+source_file="res://assets/assets-tiles-props/dialogues/amaro_npc.dialogue"
+dest_files=["res://.godot/imported/amaro_npc.dialogue-f305d989b1c55ab887f1d19dedbc355d.tres"]
+
+[params]
+
+defaults=true

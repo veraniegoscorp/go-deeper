@@ -1,0 +1,16 @@
+[remap]
+
+importer="dialogue_manager"
+importer_version=15
+type="Resource"
+uid="uid://b32pimlgj3u11"
+path="res://.godot/imported/spawn_2cond_dialogue.dialogue-3112973fb7833989d1cc6165c90cd639.tres"
+
+[deps]
+
+source_file="res://assets/assets-tiles-props/dialogues/spawn_2cond_dialogue.dialogue"
+dest_files=["res://.godot/imported/spawn_2cond_dialogue.dialogue-3112973fb7833989d1cc6165c90cd639.tres"]
+
+[params]
+
+defaults=true

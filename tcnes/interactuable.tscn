@@ -1,0 +1,17 @@
+[gd_scene format=3 uid="uid://c0yjna1cn6tyu"]
+
+[ext_resource type="Script" uid="uid://cdklmdek1pt4c" path="res://script's/interactuable.gd" id="1_t3uwl"]
+
+[sub_resource type="CircleShape2D" id="CircleShape2D_yy20j"]
+radius = 14.035668
+
+[node name="interactuable" type="Node2D" unique_id=1819962997]
+script = ExtResource("1_t3uwl")
+
+[node name="Area2D" type="Area2D" parent="." unique_id=1259964638]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Area2D" unique_id=552091806]
+shape = SubResource("CircleShape2D_yy20j")
+
+[connection signal="body_entered" from="Area2D" to="." method="_on_area_2d_body_entered"]
+[connection signal="body_exited" from="Area2D" to="." method="_on_area_2d_body_exited"]

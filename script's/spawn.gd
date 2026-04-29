@@ -15,7 +15,7 @@ func start_sequence() -> void:
 	# 💬 Diálogo 1
 	DialogueManager.show_dialogue_balloon(SPAWN_1_ST_DIALOGUE)
 	await DialogueManager.dialogue_ended
-	await get_tree().create_timer(5.0).timeout
+	await get_tree().create_timer(2.0).timeout
 	# 💬 Diálogo 2
 	DialogueManager.show_dialogue_balloon(SPAWN_2_COND_DIALOGUE)
 	await DialogueManager.dialogue_ended

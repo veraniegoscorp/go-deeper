@@ -1,0 +1,16 @@
+[remap]
+
+importer="dialogue_manager"
+importer_version=15
+type="Resource"
+uid="uid://dfnj2by46a1f2"
+path="res://.godot/imported/letreto_city1.dialogue-4587bc9f5f9678da6fc989acdb231c84.tres"
+
+[deps]
+
+source_file="res://assets/assets-tiles-props/dialogues/letreto_city1.dialogue"
+dest_files=["res://.godot/imported/letreto_city1.dialogue-4587bc9f5f9678da6fc989acdb231c84.tres"]
+
+[params]
+
+defaults=true

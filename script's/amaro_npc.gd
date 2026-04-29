@@ -28,7 +28,6 @@ func dialogo_activo(dialogue):
 func dialogo_terminado(dialogue):
 	await get_tree().create_timer(0.2).timeout
 	$AnimatedSprite2D.stop()
-	
 	is_dialoge_active=false
 
 func play_talk():

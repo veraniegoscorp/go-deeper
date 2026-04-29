@@ -1,0 +1,16 @@
+[remap]
+
+importer="dialogue_manager"
+importer_version=15
+type="Resource"
+uid="uid://dv5buwpta8bpa"
+path="res://.godot/imported/see_around.dialogue-e53f2260af1baf8032d598740fa249dd.tres"
+
+[deps]
+
+source_file="res://assets/assets-tiles-props/dialogues/see_around.dialogue"
+dest_files=["res://.godot/imported/see_around.dialogue-e53f2260af1baf8032d598740fa249dd.tres"]
+
+[params]
+
+defaults=true

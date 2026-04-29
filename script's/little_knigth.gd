@@ -42,7 +42,7 @@ func _physics_process(delta: float) -> void:
 	if not can_move:
 		velocity = Vector2.ZERO
 		move_and_slide()
-		_update_animation(last_direction, Vector2.ZERO)
+		sprite.stop()
 		$pasos.stop()
 		return
 

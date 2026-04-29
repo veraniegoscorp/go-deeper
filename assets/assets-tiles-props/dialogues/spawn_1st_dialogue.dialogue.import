@@ -1,0 +1,16 @@
+[remap]
+
+importer="dialogue_manager"
+importer_version=15
+type="Resource"
+uid="uid://pmyu8525k02c"
+path="res://.godot/imported/spawn_1st_dialogue.dialogue-e67a21ff208565615d16b98eeb620593.tres"
+
+[deps]
+
+source_file="res://assets/assets-tiles-props/dialogues/spawn_1st_dialogue.dialogue"
+dest_files=["res://.godot/imported/spawn_1st_dialogue.dialogue-e67a21ff208565615d16b98eeb620593.tres"]
+
+[params]
+
+defaults=true

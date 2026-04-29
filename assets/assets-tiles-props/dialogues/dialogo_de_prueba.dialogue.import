@@ -1,0 +1,16 @@
+[remap]
+
+importer="dialogue_manager"
+importer_version=15
+type="Resource"
+uid="uid://csgtlgjfepbpx"
+path="res://.godot/imported/dialogo_de_prueba.dialogue-5c78a714900b29d35b37eea3edd7a9bc.tres"
+
+[deps]
+
+source_file="res://assets/assets-tiles-props/dialogues/dialogo_de_prueba.dialogue"
+dest_files=["res://.godot/imported/dialogo_de_prueba.dialogue-5c78a714900b29d35b37eea3edd7a9bc.tres"]
+
+[params]
+
+defaults=true
