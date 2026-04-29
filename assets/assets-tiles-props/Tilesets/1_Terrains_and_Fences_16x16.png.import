@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://dn8yuhbx154nk"
-path="res://.godot/imported/autumn_.png-fc829d783e92c7567985c33b89c4e1ef.ctex"
+uid="uid://c1ihpfef6lbgd"
+path="res://.godot/imported/1_Terrains_and_Fences_16x16.png-a21b9dcaa9f209136df2f6f498fa1d30.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/assets-tiles-props/Tilesets/autumn_.png"
-dest_files=["res://.godot/imported/autumn_.png-fc829d783e92c7567985c33b89c4e1ef.ctex"]
+source_file="res://assets/assets-tiles-props/Tilesets/1_Terrains_and_Fences_16x16.png"
+dest_files=["res://.godot/imported/1_Terrains_and_Fences_16x16.png-a21b9dcaa9f209136df2f6f498fa1d30.ctex"]
 
 [params]
 
