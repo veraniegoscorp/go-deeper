@@ -348,6 +348,7 @@ animations = [{
 size = Vector2(4.9168777, 17.020111)
 
 [node name="little knight" type="CharacterBody2D" unique_id=1143972731]
+y_sort_enabled = true
 script = ExtResource("1_0dayi")
 
 [node name="hitbox" type="CollisionShape2D" parent="." unique_id=1852708033]
@@ -366,7 +367,7 @@ volume_db = -20.0
 
 [node name="center-weapons" type="Marker2D" parent="." unique_id=983916566]
 z_index = -1
-position = Vector2(0, -4.81)
+position = Vector2(1, -13)
 rotation = 0.014411446
 script = ExtResource("5_iodlg")
 
