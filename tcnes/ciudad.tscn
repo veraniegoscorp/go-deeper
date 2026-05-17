@@ -25,7 +25,7 @@ tile_map_data = PackedByteArray("AADb/wgAAQALAJcAAADT/wIAAQALAJcAAADb//z/AQALAJc
 position = Vector2(-1041, 685)
 
 [node name="little knight" parent="nivel2" unique_id=1143972731 instance=ExtResource("4_0wt0b")]
-position = Vector2(-1156, 726)
+position = Vector2(-988, 720)
 
 [node name="Camera2D" type="Camera2D" parent="nivel2/little knight" unique_id=548083099]
 zoom = Vector2(4, 4)
