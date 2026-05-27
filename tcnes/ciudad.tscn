@@ -1,10 +1,64 @@
 [gd_scene format=4 uid="uid://deinm8ogsp6ov"]
 
+[ext_resource type="Script" uid="uid://bvay5pbtm70cg" path="res://tcnes/ciudad.gd" id="1_0flem"]
 [ext_resource type="PackedScene" uid="uid://cr5ytlbisdvsd" path="res://tcnes/terrenos.tscn" id="1_d2t87"]
 [ext_resource type="PackedScene" uid="uid://b7nk4tsacynr3" path="res://npcs/dustin.tscn" id="3_oc5h5"]
 [ext_resource type="PackedScene" uid="uid://dymfe7vwp7bt" path="res://tcnes/little_knigth.tscn" id="4_0wt0b"]
+[ext_resource type="Resource" uid="uid://bl032x0p7jt7k" path="res://assets/assets-tiles-props/dialogues/dustin_npc_tutorial.dialogue" id="4_x6hxm"]
+[ext_resource type="Texture2D" uid="uid://bmk7qilgpti03" path="res://assets/interactuables/text dialogue interactuable-Sheet.png" id="5_0wt0b"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_x6hxm"]
+atlas = ExtResource("5_0wt0b")
+region = Rect2(0, 0, 16, 16)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_duwjv"]
+atlas = ExtResource("5_0wt0b")
+region = Rect2(16, 0, 16, 16)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_0674j"]
+atlas = ExtResource("5_0wt0b")
+region = Rect2(32, 0, 16, 16)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_rycid"]
+atlas = ExtResource("5_0wt0b")
+region = Rect2(48, 0, 16, 16)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_0on45"]
+atlas = ExtResource("5_0wt0b")
+region = Rect2(64, 0, 16, 16)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_b34le"]
+atlas = ExtResource("5_0wt0b")
+region = Rect2(80, 0, 16, 16)
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_ts8bi"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_x6hxm")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_duwjv")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_0674j")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_rycid")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_0on45")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_b34le")
+}],
+"loop": true,
+"name": &"default",
+"speed": 5.0
+}]
 
 [node name="ciudad" type="Node2D" unique_id=698995534]
+script = ExtResource("1_0flem")
 
 [node name="suelo" parent="." unique_id=977752314 instance=ExtResource("1_d2t87")]
 position = Vector2(0, -1)
@@ -23,9 +77,15 @@ tile_map_data = PackedByteArray("AADb/wgAAQALAJcAAADT/wIAAQALAJcAAADb//z/AQALAJc
 
 [node name="dustin" parent="nivel2" unique_id=1241754851 instance=ExtResource("3_oc5h5")]
 position = Vector2(-1041, 685)
+dialogo = ExtResource("4_x6hxm")
 
 [node name="little knight" parent="nivel2" unique_id=1143972731 instance=ExtResource("4_0wt0b")]
 position = Vector2(-988, 720)
 
 [node name="Camera2D" type="Camera2D" parent="nivel2/little knight" unique_id=548083099]
 zoom = Vector2(4, 4)
+
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="nivel2" unique_id=392567029]
+texture_filter = 1
+position = Vector2(-1031, 675)
+sprite_frames = SubResource("SpriteFrames_ts8bi")

@@ -24,7 +24,7 @@ func dialogo_terminado(_dialogue):
 	await get_tree().create_timer(0.2).timeout
 	is_dialoge_active=false
 
-func _on_body_shape_exited(body_rid: RID, body: Node2D, body_shape_index: int, local_shape_index: int) -> void:
+func _on_body_shape_exited(_body_rid: RID, body: Node2D, _body_shape_index: int, _local_shape_index: int) -> void:
 	if body.name=="little knight":
 		is_player_close=false
 

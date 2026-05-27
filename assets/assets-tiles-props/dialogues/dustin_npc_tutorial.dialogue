@@ -1,0 +1,18 @@
+~ start
+????: [[hola|Holis]], que te trae por las afueras de la ciudad?
+little knight: [speed=0.5]hola? sabes como puedo volver? todo se ve borroso y raro 
+????: [speed=0.5]volver? a donde? a la cueva? cada dia viene mas gente rara desde adentro de allí 
+little knight: [speed=0.5]cueva? creo que se de lo que hablas habia otro niño que me hablo de eso tambien pense que eran tonterias
+
+????: [speed=0.3](no me pagan lo suficiente para esto) [speed=0.5]*fingiendo voz alegre* [speed=1]holaaaa que tal lindura veo que eres un niño eso es efecto de la cueva?
+little knight: [speed=0.1]creo que si???........... [speed=0.5]no la verdad no tengo ninguna idea de lo que estas hablando
+????: [speed=0.5]mi nombre es dustin y puede que perdieras la memoria por adentrarte demasiado abajo dentro de la cueva, ejem recuerdas como hacer tus acciones basicas?
+little knight: [speed=0.1]no me estas escuch-
+dustin: [speed=0.5]*con alegria fingida* Muuuy bieen veo que recuerdas como hablar, recuerdas como moverte?
+little knight: [speed=0.2]puedes dej-
+dustin:[speed=3] recuerdas como moverte? es con wasd
+little knight: [speed=0.5]si obv-.. [speed=3]!!ACABO DE CRUZAR UN LABERINTO¡¡
+dustin: recuerdas como atacar? es con click izquierdo
+little knight: realmente no me vas a escuchar verdad? eres un im-
+dustin: puedes abrir tu- *lo ignoras y te volteas a mirar a delante*
+=> END

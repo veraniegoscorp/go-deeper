@@ -1,0 +1,16 @@
+[remap]
+
+importer="dialogue_manager"
+importer_version=15
+type="Resource"
+uid="uid://bl032x0p7jt7k"
+path="res://.godot/imported/dustin_npc_tutorial.dialogue-8b7ffff1dcf9e7fdd6347c78f7b2696f.tres"
+
+[deps]
+
+source_file="res://assets/assets-tiles-props/dialogues/dustin_npc_tutorial.dialogue"
+dest_files=["res://.godot/imported/dustin_npc_tutorial.dialogue-8b7ffff1dcf9e7fdd6347c78f7b2696f.tres"]
+
+[params]
+
+defaults=true

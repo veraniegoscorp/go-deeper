@@ -344,6 +344,9 @@ animations = [{
 "speed": 6.0
 }]
 
+[sub_resource type="CircleShape2D" id="CircleShape2D_iodlg"]
+radius = 8.0
+
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_g6nia"]
 size = Vector2(4.9168777, 17.020111)
 
@@ -365,19 +368,25 @@ offset = Vector2(0, -10.885)
 stream = ExtResource("4_wrm7p")
 volume_db = -20.0
 
-[node name="center-weapons" type="Marker2D" parent="." unique_id=983916566]
+[node name="center-weapons" type="Area2D" parent="." unique_id=1981141595]
 z_index = -1
-position = Vector2(1, -13)
-rotation = 0.014411446
+y_sort_enabled = true
+rotation = 0.014411445
 script = ExtResource("5_iodlg")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="center-weapons" unique_id=1616322481]
+shape = SubResource("CircleShape2D_iodlg")
 
 [node name="sword-swing" type="Sprite2D" parent="center-weapons" unique_id=1041185269]
 z_index = 1
+y_sort_enabled = true
 texture_filter = 1
+position = Vector2(0.41949102, -0.6523542)
 texture = ExtResource("5_g6nia")
-offset = Vector2(6.595, -6.335)
+offset = Vector2(6.595, -13.2)
 
 [node name="hurtbox" type="Area2D" parent="center-weapons" unique_id=97086001]
+position = Vector2(0.41949102, -0.6523542)
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="center-weapons/hurtbox" unique_id=901639446]
 position = Vector2(5.869678, -9.085531)

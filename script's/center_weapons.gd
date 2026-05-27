@@ -1,4 +1,4 @@
-extends Marker2D
+extends Area2D
 
 #con estos dos contramos el flujo principal
 var attacking = false
