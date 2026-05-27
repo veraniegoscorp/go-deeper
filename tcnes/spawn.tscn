@@ -1317,6 +1317,7 @@ volume_db = -35.547
 autoplay = true
 
 [node name="Black" type="Sprite2D" parent="." unique_id=850605684]
+visible = false
 z_index = 4
 position = Vector2(27, -30.75)
 scale = Vector2(45.5625, 29.828125)

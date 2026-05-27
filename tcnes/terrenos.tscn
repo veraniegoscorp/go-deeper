@@ -11512,5 +11512,4 @@ sources/4 = SubResource("TileSetAtlasSource_s754f")
 
 [node name="terrenos" type="TileMapLayer" unique_id=977752314]
 texture_filter = 1
-tile_map_data = PackedByteArray(0, 0, 50, 0, 8, 0, 4, 0, 8, 0, 47, 0, 0, 0, 48, 0, 3, 0, 4, 0, 8, 0, 46, 0, 0, 0)
 tile_set = SubResource("TileSet_ie13e")
