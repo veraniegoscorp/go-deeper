@@ -381,12 +381,12 @@ shape = SubResource("CircleShape2D_iodlg")
 z_index = 1
 y_sort_enabled = true
 texture_filter = 1
-position = Vector2(0.41949102, -0.6523542)
+position = Vector2(3.9851737, -1.0575397)
 texture = ExtResource("5_g6nia")
 offset = Vector2(6.595, -13.2)
 
 [node name="hurtbox" type="Area2D" parent="center-weapons" unique_id=97086001]
-position = Vector2(0.41949102, -0.6523542)
+position = Vector2(3.2606595, -4.8294435)
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="center-weapons/hurtbox" unique_id=901639446]
 position = Vector2(5.869678, -9.085531)

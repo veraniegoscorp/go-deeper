@@ -1,0 +1,16 @@
+[remap]
+
+importer="dialogue_manager"
+importer_version=15
+type="Resource"
+uid="uid://b668uvyu0qwme"
+path="res://.godot/imported/cartel_1.dialogue-87c71f209d13014e4c0e920d28e7c935.tres"
+
+[deps]
+
+source_file="res://assets/assets-tiles-props/dialogues/cartel_1.dialogue"
+dest_files=["res://.godot/imported/cartel_1.dialogue-87c71f209d13014e4c0e920d28e7c935.tres"]
+
+[params]
+
+defaults=true

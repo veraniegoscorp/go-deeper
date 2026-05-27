@@ -3,4 +3,4 @@ extends Node2D
 
 # Called when the node enters the scene tree for the first time.
 func _ready() -> void:
-	$"nivel2/AnimatedSprite2D".play("default")
+	$"nivel2/decoracion_xd".play("default")
