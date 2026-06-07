@@ -9,13 +9,25 @@ var last_direction := Vector2.DOWN
 var current_animation := ""
 var animation_timer := 0.0
 var can_move = true
-
+var vida = 100
 
 
 #--------------------------------------cargar la funcion de dialogos--------------------------
 func _ready():
 	DialogueManager.dialogue_started.connect(_on_dialogue_started)
 	DialogueManager.dialogue_ended.connect(_on_dialogue_ended)
+
+
+
+#-------------------------------------- funcion de morir y perder vida-------------------------
+func recibir_dano(cantidad):
+		vida -= cantidad
+		print("Vida:", vida)
+		if vida <= 0:
+			morir()
+
+func morir():
+	queue_free()
 
 
 

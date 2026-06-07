@@ -350,7 +350,7 @@ radius = 8.0
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_g6nia"]
 size = Vector2(4.9168777, 17.020111)
 
-[node name="little knight" type="CharacterBody2D" unique_id=1143972731]
+[node name="little knight" type="CharacterBody2D" unique_id=1143972731 groups=["player"]]
 y_sort_enabled = true
 script = ExtResource("1_0dayi")
 

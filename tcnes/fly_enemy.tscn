@@ -1,0 +1,52 @@
+[gd_scene format=3 uid="uid://g8we3e3syh7j"]
+
+[ext_resource type="Script" uid="uid://dncc26xcokpx6" path="res://fly_enemy.gd" id="1_ctsab"]
+[ext_resource type="Texture2D" uid="uid://ci2e3srd24bos" path="res://npcs/bad_guys/mosca mejorada.png" id="2_8whf1"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_fg4xp"]
+atlas = ExtResource("2_8whf1")
+region = Rect2(0, 0, 128, 128)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_5esfp"]
+atlas = ExtResource("2_8whf1")
+region = Rect2(128, 0, 128, 128)
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_kphwo"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_fg4xp")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_5esfp")
+}],
+"loop": true,
+"name": &"new_animation",
+"speed": 5.0
+}]
+
+[sub_resource type="CircleShape2D" id="CircleShape2D_trx7c"]
+radius = 15.033297
+
+[node name="fly_enemy" type="Area2D" unique_id=190900130]
+script = ExtResource("1_ctsab")
+
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="." unique_id=1534325150]
+texture_filter = 1
+scale = Vector2(0.36525035, 0.33110785)
+sprite_frames = SubResource("SpriteFrames_kphwo")
+animation = &"new_animation"
+offset = Vector2(-10.22, 1.43)
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="." unique_id=299157644]
+shape = SubResource("CircleShape2D_trx7c")
+
+[node name="Timer" type="Timer" parent="." unique_id=599779039]
+
+[node name="VisibleOnScreenNotifier2D" type="VisibleOnScreenNotifier2D" parent="." unique_id=1694441911]
+
+[connection signal="body_entered" from="." to="." method="_on_body_entered"]
+[connection signal="body_exited" from="." to="." method="_on_body_exited"]
+[connection signal="timeout" from="Timer" to="." method="_on_timer_timeout"]
+[connection signal="screen_entered" from="VisibleOnScreenNotifier2D" to="." method="_on_visible_on_screen_notifier_2d_screen_entered"]
+[connection signal="screen_exited" from="VisibleOnScreenNotifier2D" to="." method="_on_visible_on_screen_notifier_2d_screen_exited"]

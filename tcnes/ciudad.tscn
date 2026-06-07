@@ -2,12 +2,13 @@
 
 [ext_resource type="Script" uid="uid://bvay5pbtm70cg" path="res://script's/ciudad.gd" id="1_0flem"]
 [ext_resource type="PackedScene" uid="uid://cr5ytlbisdvsd" path="res://tcnes/terrenos.tscn" id="1_d2t87"]
-[ext_resource type="PackedScene" uid="uid://b7nk4tsacynr3" path="res://npcs/dustin.tscn" id="3_oc5h5"]
+[ext_resource type="PackedScene" uid="uid://b7nk4tsacynr3" path="res://tcnes/dustin.tscn" id="3_oc5h5"]
 [ext_resource type="PackedScene" uid="uid://dymfe7vwp7bt" path="res://tcnes/little_knigth.tscn" id="4_0wt0b"]
 [ext_resource type="Resource" uid="uid://bl032x0p7jt7k" path="res://assets/assets-tiles-props/dialogues/dustin_npc_tutorial.dialogue" id="4_x6hxm"]
 [ext_resource type="Texture2D" uid="uid://bmk7qilgpti03" path="res://assets/interactuables/text dialogue interactuable-Sheet.png" id="5_0wt0b"]
 [ext_resource type="PackedScene" uid="uid://c0yjna1cn6tyu" path="res://tcnes/interactuable.tscn" id="6_x6hxm"]
 [ext_resource type="Resource" uid="uid://b668uvyu0qwme" path="res://assets/assets-tiles-props/dialogues/cartel_1.dialogue" id="7_duwjv"]
+[ext_resource type="PackedScene" uid="uid://g8we3e3syh7j" path="res://tcnes/fly_enemy.tscn" id="9_0674j"]
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_x6hxm"]
 atlas = ExtResource("5_0wt0b")
@@ -91,7 +92,22 @@ position = Vector2(-1041, 685)
 dialogo = ExtResource("4_x6hxm")
 
 [node name="little knight" parent="nivel2" unique_id=1143972731 instance=ExtResource("4_0wt0b")]
-position = Vector2(-988, 720)
+position = Vector2(-706, 727)
 
 [node name="Camera2D" type="Camera2D" parent="nivel2/little knight" unique_id=548083099]
 zoom = Vector2(4, 4)
+
+[node name="fly_enemy" parent="nivel2" unique_id=190900130 instance=ExtResource("9_0674j")]
+position = Vector2(-618, 727)
+
+[node name="fly_enemy4" parent="nivel2" unique_id=3425915 instance=ExtResource("9_0674j")]
+position = Vector2(-391, 691)
+
+[node name="fly_enemy5" parent="nivel2" unique_id=1000306241 instance=ExtResource("9_0674j")]
+position = Vector2(-586, 625)
+
+[node name="fly_enemy2" parent="nivel2" unique_id=999839342 instance=ExtResource("9_0674j")]
+position = Vector2(-466, 774)
+
+[node name="fly_enemy3" parent="nivel2" unique_id=115525086 instance=ExtResource("9_0674j")]
+position = Vector2(-502, 641)
