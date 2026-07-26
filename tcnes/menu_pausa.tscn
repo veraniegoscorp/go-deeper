@@ -1,31 +1,86 @@
-[gd_scene format=3 uid="uid://bsadxovf3sv6u"]
+[gd_scene load_steps=8 format=3 uid="uid://bsadxovf3sv6u"]
 
+[ext_resource type="Script" uid="uid://yliy6m177q3" path="res://tcnes/menu_pausa.gd" id="1_6t8ju"]
 [ext_resource type="Texture2D" uid="uid://baigrsy8cbhcm" path="res://assets/assets-tiles-props/assets-for-menu/Spellbook.png" id="1_cn108"]
+[ext_resource type="FontFile" uid="uid://dcqmj31h8xlrp" path="res://assets/assets-tiles-props/fonts/FantasyRPGtext (size 8).ttf" id="2_314ba"]
+
+[sub_resource type="Animation" id="Animation_cn108"]
+length = 0.001
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath("Sprite2D:position")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 0,
+"values": [Vector2(0, 400)]
+}
 
 [sub_resource type="Animation" id="Animation_314ba"]
-resource_name = "openbook"
+resource_name = "open_book"
 length = 0.5
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath("Sprite2D:position")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0, 0.43333334, 0.5),
+"transitions": PackedFloat32Array(1, 1, 1),
+"update": 0,
+"values": [Vector2(0, 400), Vector2(0, -50), Vector2(0, 0)]
+}
 
 [sub_resource type="AnimationLibrary" id="AnimationLibrary_6t8ju"]
 _data = {
-&"openbook": SubResource("Animation_314ba")
+&"RESET": SubResource("Animation_cn108"),
+&"open_book": SubResource("Animation_314ba")
 }
 
-[node name="Control" type="Control" unique_id=1081171557]
+[sub_resource type="LabelSettings" id="LabelSettings_6t8ju"]
+font = ExtResource("2_314ba")
+outline_size = 8
+outline_color = Color(0.6842142, 0, 0.068388574, 1)
+
+[node name="Control" type="Control"]
 layout_mode = 3
 anchors_preset = 15
 anchor_right = 1.0
 anchor_bottom = 1.0
 grow_horizontal = 2
 grow_vertical = 2
+script = ExtResource("1_6t8ju")
 
-[node name="Camera2D" type="Camera2D" parent="." unique_id=119969756]
+[node name="Camera2D" type="Camera2D" parent="."]
 zoom = Vector2(2, 2)
 
-[node name="AnimationPlayer" type="AnimationPlayer" parent="." unique_id=1592739368]
-libraries/ = SubResource("AnimationLibrary_6t8ju")
+[node name="AnimationPlayer" type="AnimationPlayer" parent="."]
+libraries = {
+&"": SubResource("AnimationLibrary_6t8ju")
+}
 
-[node name="Sprite2D" type="Sprite2D" parent="." unique_id=1281230829]
+[node name="Sprite2D" type="Sprite2D" parent="."]
 texture_filter = 1
+position = Vector2(0, 400)
 scale = Vector2(1.5, 1.5)
 texture = ExtResource("1_cn108")
+
+[node name="Label" type="Label" parent="."]
+texture_filter = 1
+layout_mode = 0
+offset_left = 41.0
+offset_top = -96.0
+offset_right = 113.0
+offset_bottom = -73.0
+scale = Vector2(1.0086968, 1)
+text = "inventario"
+label_settings = SubResource("LabelSettings_6t8ju")
+
+[node name="GridContainer" type="GridContainer" parent="."]
+layout_mode = 0
+offset_right = 40.0
+offset_bottom = 40.0
