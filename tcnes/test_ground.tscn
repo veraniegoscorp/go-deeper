@@ -1,0 +1,11 @@
+[gd_scene format=3 uid="uid://c7chnym60014i"]
+
+[ext_resource type="PackedScene" uid="uid://dymfe7vwp7bt" path="res://tcnes/little_knigth.tscn" id="1_y0tdk"]
+
+[node name="test_ground" type="Node2D" unique_id=1863817448]
+
+[node name="little knight" parent="." unique_id=1143972731 instance=ExtResource("1_y0tdk")]
+position = Vector2(-151, -29)
+
+[node name="Camera2D" type="Camera2D" parent="little knight" unique_id=1735628763]
+zoom = Vector2(2, 2)

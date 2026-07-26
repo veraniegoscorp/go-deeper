@@ -12,7 +12,7 @@ config_version=5
 
 config/name="go deeper"
 run/main_scene="uid://dfwee7nyo1u87"
-config/features=PackedStringArray("4.6", "Forward Plus")
+config/features=PackedStringArray("4.7", "Forward Plus")
 
 [autoload]
 
@@ -32,10 +32,10 @@ folder_colors={
 "res://assets/load screen/": "green",
 "res://cave-levels(1-5)/": "pink",
 "res://little_knigth/": "gray",
-"res://little_knigth/weapons/": "yellow",
 "res://npcs/": "purple",
 "res://script's/": "purple",
-"res://tcnes/": "red"
+"res://tcnes/": "red",
+"res://weapons/": "yellow"
 }
 
 [input]

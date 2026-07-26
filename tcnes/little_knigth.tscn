@@ -4,7 +4,7 @@
 [ext_resource type="Texture2D" uid="uid://d2471lbbsmd40" path="res://little_knigth/16x32 Idle-Sheet.png" id="1_7v8vh"]
 [ext_resource type="Texture2D" uid="uid://doaof0e0lsqj5" path="res://little_knigth/16x32 Walk-Sheet.png" id="3_aa38s"]
 [ext_resource type="AudioStream" uid="uid://dsh5r07c3lfwj" path="res://sfx(audio)/audio/501102__evretro__8-bit-footsteps.wav" id="4_wrm7p"]
-[ext_resource type="Texture2D" uid="uid://b4qboiyd1r7vr" path="res://little_knigth/weapons/item1.png" id="5_g6nia"]
+[ext_resource type="Texture2D" uid="uid://b4qboiyd1r7vr" path="res://weapons/item1.png" id="5_g6nia"]
 [ext_resource type="Script" uid="uid://dqbenlfwc5msk" path="res://script's/center_weapons.gd" id="5_iodlg"]
 
 [sub_resource type="CapsuleShape2D" id="CapsuleShape2D_0dayi"]
@@ -186,7 +186,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("AtlasTexture_qu3at")
 }],
-"loop": true,
+"loop": 1,
 "name": &"idle_diagonal",
 "speed": 2.0
 }, {
@@ -203,7 +203,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("AtlasTexture_u7ngx")
 }],
-"loop": true,
+"loop": 1,
 "name": &"idle_diagonal_down",
 "speed": 2.0
 }, {
@@ -220,7 +220,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("AtlasTexture_iops8")
 }],
-"loop": true,
+"loop": 1,
 "name": &"idle_down",
 "speed": 2.0
 }, {
@@ -237,7 +237,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("AtlasTexture_jpuf5")
 }],
-"loop": true,
+"loop": 1,
 "name": &"idle_right",
 "speed": 2.0
 }, {
@@ -254,7 +254,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("AtlasTexture_lkybn")
 }],
-"loop": true,
+"loop": 1,
 "name": &"idle_up",
 "speed": 2.0
 }, {
@@ -271,7 +271,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("AtlasTexture_t21b8")
 }],
-"loop": true,
+"loop": 1,
 "name": &"walk_diagonal",
 "speed": 6.0
 }, {
@@ -288,7 +288,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("AtlasTexture_lmdba")
 }],
-"loop": true,
+"loop": 1,
 "name": &"walk_diagonal_up",
 "speed": 6.0
 }, {
@@ -305,7 +305,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("AtlasTexture_sx1ap")
 }],
-"loop": true,
+"loop": 1,
 "name": &"walk_down",
 "speed": 6.0
 }, {
@@ -322,7 +322,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("AtlasTexture_4n5tl")
 }],
-"loop": true,
+"loop": 1,
 "name": &"walk_right",
 "speed": 6.0
 }, {
@@ -339,13 +339,10 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("AtlasTexture_j3rjm")
 }],
-"loop": true,
+"loop": 1,
 "name": &"walk_up",
 "speed": 6.0
 }]
-
-[sub_resource type="CircleShape2D" id="CircleShape2D_iodlg"]
-radius = 8.0
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_g6nia"]
 size = Vector2(4.9168777, 17.020111)
@@ -368,22 +365,11 @@ offset = Vector2(0, -10.885)
 stream = ExtResource("4_wrm7p")
 volume_db = -20.0
 
-[node name="center-weapons" type="Area2D" parent="." unique_id=1981141595]
+[node name="center-weapons" type="Node2D" parent="." unique_id=1559191830]
 z_index = -1
 y_sort_enabled = true
 rotation = 0.014411445
 script = ExtResource("5_iodlg")
-
-[node name="CollisionShape2D" type="CollisionShape2D" parent="center-weapons" unique_id=1616322481]
-shape = SubResource("CircleShape2D_iodlg")
-
-[node name="sword-swing" type="Sprite2D" parent="center-weapons" unique_id=1041185269]
-z_index = 1
-y_sort_enabled = true
-texture_filter = 1
-position = Vector2(3.9851737, -1.0575397)
-texture = ExtResource("5_g6nia")
-offset = Vector2(6.595, -13.2)
 
 [node name="hurtbox" type="Area2D" parent="center-weapons" unique_id=97086001]
 position = Vector2(3.2606595, -4.8294435)
@@ -392,3 +378,11 @@ position = Vector2(3.2606595, -4.8294435)
 position = Vector2(5.869678, -9.085531)
 rotation = 0.6254696
 shape = SubResource("RectangleShape2D_g6nia")
+
+[node name="sword-swing" type="Sprite2D" parent="center-weapons/hurtbox" unique_id=1041185269]
+z_index = 1
+y_sort_enabled = true
+texture_filter = 1
+position = Vector2(0.72451425, 3.7719042)
+texture = ExtResource("5_g6nia")
+offset = Vector2(6.595, -13.2)
